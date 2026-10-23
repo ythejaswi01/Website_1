@@ -1,0 +1,118 @@
+.about-page {
+    max-width: 1287px;
+    margin: 0 auto 40px auto;
+    padding: 60px 40px;
+    background: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.about-page::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&q=80') center/cover no-repeat;
+    opacity: 0.1;
+    z-index: 0;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.page-title {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.about-section {
+    padding-bottom: 32px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.about-section:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.section-heading {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #212529;
+    margin-bottom: 16px;
+}
+
+.section-text {
+    font-size: 16px;
+    color: #6c757d;
+    line-height: 1.6;
+    max-width: 900px;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-top: 24px;
+}
+
+.value-card {
+    padding: 36px;
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    text-align: center;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.value-card::before {
+    display: none;
+}
+
+.value-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.value-icon {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.value-title {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #212529;
+    margin-bottom: 8px;
+}
+
+.value-description {
+    font-size: 14px;
+    color: #6c757d;
+    line-height: 1.5;
+}

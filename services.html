@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Themes Forge</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="services.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <div class="logo-image">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#0066cc" font-family="Arial, sans-serif" font-weight="bold" font-size="28">T</text>
+                </svg>
+            </div>
+        </div>
+        <nav class="nav">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="services.html" class="nav-link active">Services</a>
+            <a href="about.html" class="nav-link">About Us</a>
+            <a href="enquiry.html" class="nav-link">Enquiry</a>
+        </nav>
+        <button class="signup-btn">Sign Up</button>
+    </header>
+
+    <main>
+        <section class="services-page">
+            <h1 class="page-title">OUR SERVICES</h1>
+            <div class="services-container">
+                <aside class="services-sidebar">
+                    <div class="sidebar-item active" data-service="managed-it">
+                        <span class="sidebar-text">Managed IT Services</span>
+                        <svg class="sidebar-arrow" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 4L14 10L8 16" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="sidebar-item" data-service="cybersecurity">
+                        <span class="sidebar-text">Cybersecurity</span>
+                        <svg class="sidebar-arrow" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 4L14 10L8 16" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="sidebar-item" data-service="cloud-solutions">
+                        <span class="sidebar-text">Cloud Solutions</span>
+                        <svg class="sidebar-arrow" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 4L14 10L8 16" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="sidebar-item" data-service="it-consulting">
+                        <span class="sidebar-text">IT Consulting</span>
+                        <svg class="sidebar-arrow" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 4L14 10L8 16" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </aside>
+
+                <div class="services-content">
+                    <div class="service-detail active" id="managed-it">
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&q=80" alt="Managed IT Services" />
+                        </div>
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="8" y="8" width="32" height="32" rx="4" stroke="#1900FF" stroke-width="3"/>
+                                    <path d="M16 20H32M16 28H24" stroke="#1900FF" stroke-width="3" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h2 class="service-title">Managed IT Services</h2>
+                                <p class="service-description">Proactive support and management to keep your systems running smoothly.</p>
+                            </div>
+                        </div>
+                        <div class="service-details-grid">
+                            <div class="detail-column">
+                                <h3 class="detail-heading">What it includes</h3>
+                                <ul class="detail-list">
+                                    <li>24/7 monitoring</li>
+                                    <li>Helpdesk support</li>
+                                </ul>
+                            </div>
+                            <div class="detail-column">
+                                <h3 class="detail-heading">Best for</h3>
+                                <p class="detail-text">Businesses seeking reliable day-to-day IT support</p>
+                            </div>
+                            <div class="detail-column">
+                                <h3 class="detail-heading">Delivery style</h3>
+                                <p class="detail-text">Ongoing managed service with flexible plans</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-detail" id="cybersecurity">
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80" alt="Cybersecurity" />
+                        </div>
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M24 8C16.268 8 10 14.268 10 22V28C10 35.732 16.268 42 24 42C31.732 42 38 35.732 38 28V22C38 14.268 31.732 8 24 8Z" stroke="#1900FF" stroke-width="3"/>
+                                    <path d="M24 18V26M24 32V30" stroke="#1900FF" stroke-width="3" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h2 class="service-title">Cybersecurity</h2>
+                                <p class="service-description">Protect your business with comprehensive security solutions.</p>
+                            </div>
+                        </div>
+                        <div class="service-details-grid">
+                            <div class="detail-column">
+                                <h3 class="detail-heading">What it includes</h3>
+                                <ul class="detail-list">
+                                    <li>Threat detection</li>
+                                    <li>Security audits</li>
+                                </ul>
+                            </div>
+                            <div class="detail-column">
+                                <h3 class="detail-heading">Best for</h3>
+                                <p class="detail-text">Organizations needing robust data protection</p>
+                            </div>
+                            <div class="detail-column">
+                                <h3 class="detail-heading">Delivery style</h3>
+                                <p class="detail-text">Layered security approach with monitoring</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-detail" id="cloud-solutions">
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80" alt="Cloud Solutions" />
+                        </div>
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16 32C12.6863 32 10 29.3137 10 26C10 22.6863 12.6863 20 16 20C16.05 20 16.1 20 16.15 20.01C16.58 14.96 20.81 11 26 11C30.97 11 35.05 14.62 35.85 19.36C39.39 19.78 42 22.65 42 26C42 29.3137 39.3137 32 36 32H16Z" stroke="#1900FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h2 class="service-title">Cloud Solutions</h2>
+                                <p class="service-description">Scalable cloud infrastructure and migration services.</p>
+                            </div>
+                        </div>
+                        <div class="service-details-grid">
+                            <div class="detail-column">
+                                <h3 class="detail-heading">What it includes</h3>
+                                <ul class="detail-list">
+                                    <li>Cloud migration</li>
+                                    <li>Infrastructure management</li>
+                                </ul>
+                            </div>
+                            <div class="detail-column">
+                                <h3 class="detail-heading">Best for</h3>
+                                <p class="detail-text">Businesses scaling operations</p>
+                            </div>
+                            <div class="detail-column">
+                                <h3 class="detail-heading">Delivery style</h3>
+                                <p class="detail-text">Flexible cloud deployment options</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-detail" id="it-consulting">
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&q=80" alt="IT Consulting" />
+                        </div>
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="24" cy="24" r="18" stroke="#1900FF" stroke-width="3"/>
+                                    <path d="M24 16V24L28 28" stroke="#1900FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h2 class="service-title">IT Consulting</h2>
+                                <p class="service-description">Strategic technology planning and expert guidance.</p>
+                            </div>
+                        </div>
+                        <div class="service-details-grid">
+                            <div class="detail-column">
+                                <h3 class="detail-heading">What it includes</h3>
+                                <ul class="detail-list">
+                                    <li>Technology strategy</li>
+                                    <li>Project planning</li>
+                                </ul>
+                            </div>
+                            <div class="detail-column">
+                                <h3 class="detail-heading">Best for</h3>
+                                <p class="detail-text">Organizations planning growth</p>
+                            </div>
+                            <div class="detail-column">
+                                <h3 class="detail-heading">Delivery style</h3>
+                                <p class="detail-text">Consultative engagement model</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <div class="footer-logo-image">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#0066cc" font-family="Arial, sans-serif" font-weight="bold" font-size="28">T</text>
+                        </svg>
+                    </div>
+                    <span class="footer-logo-text">Themes Forge</span>
+                </div>
+                <p>Your trusted partner for comprehensive IT solutions and technology services.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="services.html">Managed IT Services</a></li>
+                    <li><a href="services.html">Cybersecurity</a></li>
+                    <li><a href="services.html">Cloud Solutions</a></li>
+                    <li><a href="services.html">IT Consulting</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>info@themesforge.com</p>
+                <p>+1 (555) 123-4567</p>
+                <p>123 Tech Street, Innovation City, TC 12345</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Themes Forge. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="#" aria-label="Facebook">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5.67392 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+                <a href="#" aria-label="Twitter">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M23 3C22.0424 3.67528 20.9821 4.16061 19.86 4.43C20.3174 3.81981 20.6531 3.10592 20.84 2.34C20.84 2.34 20.84 2.34 20.84 2.34C20.0424 2.92528 19.1471 3.36061 18.2 3.63C17.2234 2.59158 15.8465 2 14.39 2C11.4904 2 9.14 4.35039 9.14 7.25C9.14 7.63 9.18 8 9.25 8.36C5.18 8.16 1.54 6.16 -0.89 3.18C-1.59 4.4 -1.89 5.84 -1.89 7.34C-1.89 10.16 -0.39 12.63 1.95 14.14C0.99 14.11 0.06 13.86 -0.79 13.45C-0.79 13.47 -0.79 13.49 -0.79 13.51C-0.79 16.05 0.88 18.19 3.22 18.63C2.82 18.74 2.4 18.8 1.97 18.8C1.66 18.8 1.36 18.77 1.06 18.71C1.69 20.81 3.64 22.36 5.94 22.4C4.14 23.81 1.87 24.64 -0.59 24.64C-1.01 24.64 -1.42 24.62 -1.82 24.58C0.5 26.11 3.28 27 6.29 27C14.39 27 18.84 20.46 18.84 14.79C18.84 14.6 18.84 14.42 18.83 14.23C19.84 13.51 20.72 12.62 21.4 11.61C20.48 12.03 19.49 12.32 18.46 12.47C19.51 11.83 20.32 10.84 20.7 9.67C19.7 10.27 18.6 10.7 17.43 10.96C18.46 9.87 19.23 8.44 19.23 6.84C19.23 6.63 19.21 6.42 19.18 6.22C21.49 4.06 23 1.38 23 3Z" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+                <a href="#" aria-label="LinkedIn">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V22H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V22H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8Z" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M6 9H2V22H6V9Z" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M4 6C5.10457 6 6 5.10457 6 4C6 2.89543 5.10457 2 4 2C2.89543 2 2 2.89543 2 4C2 5.10457 2.89543 6 4 6Z" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="services.js"></script>
+</body>
+</html>
